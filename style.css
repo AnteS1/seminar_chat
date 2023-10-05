@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+.members-count,
+.members-list,
+.messages {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+  }
+  
+.messages {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    max-width: 80%;
+    word-wrap: break-word;
+    border-radius: 15px;
+    clear: both; 
+  }
+
+.current-user {
+    background-color: #007BFF; 
+    color: white; 
+    float: right;
+  }
+  
+.other-user {
+    background-color: #f0f0f0; 
+    float: left;
+  }
+  
+.member {
+    font-weight: bold;
+    margin-right: 5px; 
+  }
+  
+.message .member {
+    font-weight: bold;
+  }
+  
+.member {
+    padding-right: 5px;
+  }
+  
+.message-form {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+.message-form__input {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+  
+.message-form__button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #0084ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+.message-form__button:hover {
+    background-color: #0073e6;
+  }
